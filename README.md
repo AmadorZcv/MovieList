@@ -3,6 +3,7 @@ Projeto com o codigo que será utilizado para o curso de react native realizado 
 ## Conteudo
 ### Dia 1
 1.Introdução a sintaxe e conceitos de JavaScript
+ * [PlayGround](https://stephengrider.github.io/JSPlaygrounds/)
  * Variaveis
  * Estruturas de controle
  * Desestruturação de objetos e arrays
