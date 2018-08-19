@@ -1,8 +1,9 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {View} from 'react-native';
 import {Font, AppLoading} from 'expo';
 
 import AppDia1 from './dia1/App';
+import AppDia2 from './dia2/App';
 export default class App extends React.Component {
   constructor (props) {
     super (props);
@@ -31,15 +32,10 @@ export default class App extends React.Component {
         />
       );
     }
-    return <AppDia1 />;
+    return (
+      <View style={{flex: 1, paddingTop: Expo.Constants.statusBarHeight}}>
+        <AppDia2 />
+      </View>
+    );
   }
 }
-
-const styles = StyleSheet.create ({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
